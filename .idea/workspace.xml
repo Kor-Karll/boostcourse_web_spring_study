@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78672e26-0a4a-491d-ba85-c88efe1d74c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/or/connect/dao/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/or/connect/dao/RoleDaoSqls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/or/connect/dto/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/or/connect/jdbctexam01/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/or/connect/jdbctexam01/config/DBConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/or/connect/main/DataSourceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kr/or/connect/main/SelectAllTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kr/or/connect/main/JDBCTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/or/connect/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/or/connect/dao/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kr/or/connect/dao/RoleDaoSqls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kr/or/connect/dao/RoleDaoSqls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kr/or/connect/dao/RoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kr/or/connect/dao/RoleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kr/or/connect/dao/RoleDaoSqls.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kr/or/connect/dao/RoleDaoSqls.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +58,7 @@
       <recent name="kr.or.connect.diexam01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SelectAllTest">
+  <component name="RunManager" selected="Application.JDBCTest">
     <configuration name="ApplicationContextExam02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kr.or.connect.diexam01.ApplicationContextExam02" />
       <module name="edwith_spring_study" />
@@ -89,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kr.or.connect.diexam01.Car" />
+    <configuration name="DataSourceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kr.or.connect.main.DataSourceTest" />
       <module name="edwith_spring_study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kr.or.connect.diexam01.*" />
+          <option name="PATTERN" value="kr.or.connect.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataSourceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kr.or.connect.main.DataSourceTest" />
+    <configuration name="JDBCTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kr.or.connect.main.JDBCTest" />
       <module name="edwith_spring_study" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBCTest" />
         <item itemvalue="Application.SelectAllTest" />
         <item itemvalue="Application.DataSourceTest" />
         <item itemvalue="Application.ApplicationContextExam04" />
         <item itemvalue="Application.ApplicationContextExam02" />
-        <item itemvalue="Application.Car" />
       </list>
     </recent_temporary>
   </component>
@@ -168,21 +164,21 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1245" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1584895914925" />
-    <state width="910" height="298" key="GridCell.Tab.0.bottom" timestamp="1584895918458">
+    <state width="910" height="298" key="GridCell.Tab.0.bottom" timestamp="1585057353574">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="910" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584895918458" />
-    <state width="910" height="298" key="GridCell.Tab.0.center" timestamp="1584895918457">
+    <state width="910" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585057353574" />
+    <state width="910" height="298" key="GridCell.Tab.0.center" timestamp="1585057353574">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="910" height="298" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584895918457" />
-    <state width="910" height="298" key="GridCell.Tab.0.left" timestamp="1584895918457">
+    <state width="910" height="298" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585057353574" />
+    <state width="910" height="298" key="GridCell.Tab.0.left" timestamp="1585057353574">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="910" height="298" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584895918457" />
-    <state width="910" height="298" key="GridCell.Tab.0.right" timestamp="1584895918457">
+    <state width="910" height="298" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585057353574" />
+    <state width="910" height="298" key="GridCell.Tab.0.right" timestamp="1585057353574">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="910" height="298" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584895918457" />
+    <state width="910" height="298" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585057353574" />
   </component>
 </project>
