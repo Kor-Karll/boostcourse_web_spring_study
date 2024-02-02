@@ -10,7 +10,7 @@
     <properties>
 <!--상수 선언하는곳-->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>4.3.26.RELEASE</spring.version>
+        <spring.version>5.2.22.RELEASE</spring.version>
     </properties>
     <dependencies>
         <dependency>
